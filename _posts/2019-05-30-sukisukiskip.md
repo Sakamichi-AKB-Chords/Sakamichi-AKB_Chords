@@ -1,5 +1,5 @@
 ---
-layout: chords
+layout: AKB48
 title: Suki! Suki! Skip!
 ---
 D

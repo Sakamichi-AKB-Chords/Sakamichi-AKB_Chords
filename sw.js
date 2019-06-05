@@ -2,7 +2,7 @@
 layout: null
 ---
 
-const staticCacheName = "chords-v66";
+const staticCacheName = "chords-v1";
 
 console.log("installing worker");
 

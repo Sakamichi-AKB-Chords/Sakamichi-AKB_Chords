@@ -1,5 +1,5 @@
 ---
-layout: chords
+layout: AKB48
 title: Kimi no Senaka
 ---
 Abm Ebm Abm Ebm
