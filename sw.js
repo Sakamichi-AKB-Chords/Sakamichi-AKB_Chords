@@ -5,6 +5,7 @@ var urlsToCache = [];
 
 var CACHE_NAME = 'sakb-v1';
 
+ urlsToCache.push("/style.css")
 // Cache posts
 // Limits the number of posts that gets cached to 3
 // Reads a piece of front-matter in each post that directs the second loop to the folder where the assets are held
@@ -48,7 +49,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response => {
+    caches.match(event.request, {cacheName:CACHE_NAME,ignoreVary:true,ignoreSearch:true}).then(response => {
       return response || fetch(event.request);
     })
   );
