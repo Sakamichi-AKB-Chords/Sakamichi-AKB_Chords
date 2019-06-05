@@ -1,6 +1,6 @@
 ---
 title: Index
-layout: page
+layout: default
 permalink: /
 ---
 # B
