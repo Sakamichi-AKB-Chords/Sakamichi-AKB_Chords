@@ -1,33 +1,34 @@
-const FILES_TO_CACHE = [
-  '/offline.html',
-];
+// service-worker.js
 
-evt.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log('[ServiceWorker] Pre-caching offline page');
-      return cache.addAll(FILES_TO_CACHE);
-    })
+// set names for both precache & runtime cache
+workbox.core.setCacheNameDetails({
+    prefix: 'Chords',
+    suffix: 'v1',
+    precache: 'precache',
+    runtime: 'runtime-cache'
+});
+
+// let Service Worker take control of pages ASAP
+workbox.skipWaiting();
+workbox.clientsClaim();
+
+// let Workbox handle our precache list
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
+// use `networkFirst` strategy for `*.html`, like all my posts
+workbox.routing.registerRoute(
+    /\.html$/,
+    workbox.strategies.networkFirst()
 );
 
-evt.waitUntil(
-    caches.keys().then((keyList) => {
-      return Promise.all(keyList.map((key) => {
-        if (key !== CACHE_NAME) {
-          console.log('[ServiceWorker] Removing old cache', key);
-          return caches.delete(key);
-        }
-      }));
-    })
+// use `cacheFirst` strategy for images
+workbox.routing.registerRoute(
+    /assets\/(img|icons)/,
+    workbox.strategies.cacheFirst()
 );
 
-
-}
-evt.respondWith(
-    fetch(evt.request)
-        .catch(() => {
-          return caches.open(CACHE_NAME)
-              .then((cache) => {
-                return cache.match('offline.html');
-              });
-        })
+// third party files
+workbox.routing.registerRoute(
+    /^https?:\/\/cdn.staticfile.org/,
+    workbox.strategies.staleWhileRevalidate()
 );
