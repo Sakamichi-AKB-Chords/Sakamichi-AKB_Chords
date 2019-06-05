@@ -77,24 +77,24 @@ sass:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-pwa-plugin
-  - jekyll-offline
+#  - jekyll-pwa-plugin
+#  - jekyll-offline
 
-offline:
-  strategy: network-first-cache-fallback
+#offline:
+#  strategy: network-first-cache-fallback
 
-pwa:
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 10000 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff,png,jpg,jpeg,hmtl}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
+#pwa:
+#  sw_src_filepath: service-worker.js # Optional
+#  sw_dest_filename: service-worker.js # Optional
+#  dest_js_directory: assets/js # Required
+#  precache_recent_posts_num: 10000 # Optional
+#  precache_glob_directory: / # Optional
+#  precache_glob_patterns: # Optional
+#    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff,png,jpg,jpeg,hmtl}"
+#    - index.html
+#  precache_glob_ignores: # Optional
+#    - sw-register.js
+#    - "fonts/**/*"
 
 # Exclude these files from your production _site
 exclude:
@@ -103,4 +103,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - ['vendor']
+#  - ['vendor']

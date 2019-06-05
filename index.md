@@ -3,6 +3,8 @@ title: Index
 layout: index
 permalink: /
 ---
+# 0-9
+[302 Goshitsu](/302goshitsu)
 # B
 [Beginner](/beginner)
 # K
