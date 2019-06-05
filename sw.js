@@ -1,57 +1,62 @@
 ---
 layout: null
 ---
+var urlsToCache = [];
 
-const staticCacheName = "chords-v1";
+var CACHE_NAME = 'sakb-v1';
 
-console.log("installing worker");
-
-const filesToCache = [
-  "/",
-  {% for page in site.html_pages %}
-    '{{ page.url }}',
+// Cache posts
+// Limits the number of posts that gets cached to 3
+// Reads a piece of front-matter in each post that directs the second loop to the folder where the assets are held
+{% for post in site.posts %}
+  urlsToCache.push("{{ post.url }}")
+  {% for file in site.static_files %}
+    {% if file.path contains post.assets %}
+      urlsToCache.push("{{ file.path }}")
+    {% endif %}
   {% endfor %}
-  {% for post in site.posts %}
-    '{{ post.url }}',
-  {% endfor %}
-  // can be automated rather than manual entries
-  "/images/icon192.png",
-  "/images/icon512.png",
-  "/images/logo.png",
-  "/images/flag.png",
-  "/images/404.jpg",
-  "/style.css",
-  "/index.html"
-];
+{% endfor %}
 
-self.addEventListener("install", function(e){
-  self.skipWaiting();
-  e.waitUntil(
-    caches.open(staticCacheName).then(function(cache){
-      return cache.addAll(filesToCache);
-    })
-  )
+// Cache pages
+// Do nothing if it's either an AMP page (as these are served via Googles cache) or the blog page
+// Fallback to the offline pages for these
+{% for page in site.html_pages %}
+  {% if page.path contains 'amp-html' or page.path contains 'blog' %}
+  {% else if %}
+    urlsToCache.push("{{ page.url }}")
+  {% endif %}
+{% endfor %}
+
+// Cache assets
+// Removed assets/posts because I only want assets from the most recent posts getting cached
+{% for file in site.static_files %}
+    {% if file.extname == '.js' or file.extname == '.css' or file.extname == '.jpg' or file.extname == '.png' or file.extname == '.json' %}
+      urlsToCache.push("{{ file.path }}")
+    {% endif %}
+{% endfor %}
+
+
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        return cache.addAll(urlsToCache);
+      })
+  );
 });
 
-self.addEventListener("activate", function(e){
-  e.waitUntil(
-    caches.keys().then(function(cacheNames){
-      return Promise.all(
-        cacheNames.filter(function(cacheName){
-          return cacheName.startsWith("chords-")
-            && cacheName != staticCacheName;
-        }).map(function(cacheName){
-          return cache.delete(cacheName);
-        })
-      )
-    })
-  )
+self.addEventListener('fetch', event => {
+  event.respondWith(async function() {
+    try {
+      return await fetch(event.request);
+    } catch (err) {
+      return caches.match(event.request);
+    }
+    //caches.match(event.request, {ignoreSearch:true}).then(response => {
+      //return response || fetch(event.request);
+    //})
+  });
 });
 
-self.addEventListener("fetch", function(e){
-  e.respondWith(
-     caches.match(e.request).then(function(response) {
-       return response || fetch(e.request);
-     })
-   )
-});
+
