@@ -121,3 +121,5 @@ G Em Am Cm G
 G Em (Repeat)
 
 G
+
+{% include rp.html %}

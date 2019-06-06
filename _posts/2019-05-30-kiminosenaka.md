@@ -39,3 +39,5 @@ Eb F Bb Gm Eb F Gm
 Eb F Bb Gm Eb F
 
 ## Outro = Chorus + Eb
+
+{% include rp.html %}

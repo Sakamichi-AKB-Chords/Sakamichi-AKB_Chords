@@ -56,3 +56,5 @@ Am Bm C D G
 C G Am Bm C D
 
 G
+
+{% include rp.html %}
