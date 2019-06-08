@@ -1,17 +1,17 @@
 ---
-title:
-layout: index
-permalink: /
+title: AKB48
+layout: post
+permalink: /AKB48
 ---
-# 0-9
+# AKB48
+## 0-9
 [1! 2! 3! 4! Yoroshiku!](/1234yoroshiku)<br>
 [100m Conbini](/100mconbini)<br>
 [109 Marukyuu](/109marukyuu)<br>
 [16nin Shimai no Uta](/16ninshimainouta)<br>
-[302 Goshitsu](/302goshitsu)<br>
 [365nichi no Kamihikouki](/365nichinokamihikouki)<br>
 [7ji 12fun no Hatsukoi](/7ji12funnohatsukoi)
-# A
+## A
 [Ai ni Ikou](/ainiikou)<br>
 [Ai no Stripper](/ainostripper)<br>
 [Aitakatta](/aitakatta)<br>
@@ -25,7 +25,7 @@ permalink: /
 [Aozora Kataomoi](/aozorakataomoi)<br>
 [Arashi no Yoru ni wa](/arashinoyoruniwa)<br>
 [Arigatou](/arigatou)
-# B
+## B
 [Baby! Baby! Baby!](/babybabybaby)<br>
 [Bara no Kajitsu](/baranokajitsu)<br>
 [Beach Sandals](/beachsandals)<br>
@@ -42,39 +42,37 @@ permalink: /
 [Bokura no Kaze](/bokuranokaze)<br>
 [Bokutachi no Kamihikouki](/bokutachinokamihikouki)<br>
 [Boyfriend no Tsukurikata](/boyfriendnotsukurikata)
-# C
+## C
 [Candy](/candy)<br>
 [Chime wa Love Song](/chimewalovesong)<br>
-[Chinmoku Shita Koibito yo](/chinmokushitakoibitoyo)<br>
 [Choco no Yukue](/choconoyukue)<br>
 [Cinderella wa Damasarenai](/cinderellawadamasarenai)<br>
 [Classmate](/classmate)<br>
 [Coolgirl](/coolgirl)
-# D
+## D
 [Daisuki](/daisuki)<br>
 [Dakishimecha Ikenai](/dakishimechaikenai)<br>
 [Dareka no Tame ni](/darekanotameni)<br>
 [Deja Vu](/dejavu)<br>
 [Don't Disturb](/dontdisturb)<br>
 [Don't look back](/dontlookback)
-# E
+## E
 [Eien Pressure](/eienpressure)<br>
 [Erai Hito ni Naritakunai](/eraihitoninaritakunai)<br>
 [Escape](/escape)
-# F
+## F
 [First Rabbit](/firstrabbit)<br>
 [Flying Get](/flyingget)<br>
 [Fushidara na Natsu](/fushidaranaatsu)<br>
 [Futari Nori no Jitensha](/futarinorinojitensha)<br>
 [Futari wa Dekiteru](/futariwadekiteru)
-# G
+## G
 [Gingham Check](/ginghamcheck)<br>
 [Glory Days](/glorydays)<br>
 [Gokigen Naname no Mermaid](/gokigennanamenomermaid)<br>
-[Gomen ne, Christmas](/gomennechristmas)<br>
 [Gomen ne, Jewel](/gomennejewel)<br>
 [Gomen ne, Summer](/gomennesummer)
-# H
+## H
 [Halloween Night](/halloweennight)<br>
 [Hanikami Lollipop](/hanikamilollipop)<br>
 [Hashire! Penguin](/hashirepenguin)<br>
@@ -88,7 +86,7 @@ permalink: /
 [Hissatsu Teleport](/hissatsuteleport)<br>
 [Hizukehenkousen](/hizukehenkousen)<br>
 [Honest Man](/honestman)
-# I
+## I
 [Idol Nante Yobanaide](/idolnanteyobanaide)<br>
 [Idol no Ouja](/idolnoouja)<br>
 [Iiwake Maybe](/iiwakemaybe)<br>
@@ -96,11 +94,11 @@ permalink: /
 [Inochi no Tsukaimichi](/inochinotsukaimichi)<br>
 [Inseki no Kkauritsu](/insekinokakuritsu)<br>
 [Itoshisa no Defense](/itoshisanodefense)
-# J
+## J
 [JK Nemurihime](/jknemurihime)<br>
 [Junjou Shugi](/junjoushugi)<br>
 [Juuryoku Sympathy](/juuryokusympathy)
-# K
+## K
 [Kagami no Naka no Jeanne d'Arc](/kagaminonakanojeannedarc)<br>
 [Kaiyuugyo no Capacity](/kaiyuugyonocapacity)<br>
 [Kataomoi Finally](/kataomoifinally)<br>
@@ -128,11 +126,11 @@ permalink: /
 [Kuroi Tenshi](/kuroitenshi)<br>
 [Kurumi to Dialogue](/kurumitodialogue)<br>
 [Kyuusen Kyotei](/kyuusenkyotei)
-# L
+## L
 [Lay Down](/laydown)<br>
 [Locker Room Boy](/lockerroomboy)<br>
 [Lucky Seven](/luckyseven)
-# M
+## M
 [Mae Shika Mukanee](/maeshikamukanee)<br>
 [Majisuka Rock n' Roll](/majisukarocknroll)<br>
 [Mammoth](/mammoth)<br>
@@ -144,7 +142,7 @@ permalink: /
 [Migi e Magare!](/migiemagare)<br>
 [Mirai no Kajitsu](mirainokajitsu)<br>
 [Mirai no Tobira](/mirainotobira)
-# N
+## N
 [Nagai Hikari](/nagaihikari)<br>
 [Nage Kiss de Uchiotose](/nagekissdeuchiotose)<br>
 [Nagiichi](/nagiichi)<br>
@@ -153,9 +151,8 @@ permalink: /
 [Namida no Uri Shoujo](/namidanourishoujo)<br>
 [Namida Surprise](/namidasurprise)<br>
 [Natsu ga Icchatta](/natsugaicchatta)<br>
-[New Ship](/newship)<br>
-[Nobody](/nobody)
-# O
+[New Ship](/newship)
+## O
 [Oboete Kudasai](/oboetekudasai)<br>
 [Only Today](/onlytoday)<br>
 [Oogoe Diamond](/oogoediamond)<br>
@@ -163,14 +160,14 @@ permalink: /
 [Oteage Lullaby](/oteagelullaby)<br>
 [Ougon Center](/ougoncenter)<br>
 [Overture](/overture)
-# P
+## P
 [Pajama Drive](/pajamadrive)<br>
 [Pareo wa Emerald](/pareowaemerald)<br>
 [Party ga Hajimaru yo](/partygahajimaruyo)<br>
 [Plastic no Kuchibiru](/plasticnokuchibiru)<br>
 [Ponytail to Shushu](/ponytailtoshushu)<br>
 [Punkish](/punkish)
-# R
+## R
 [Renai Kinshi Jourei](/renaikinshijourei)<br>
 [Return Match](/returnmatch)<br>
 [Rider](/rider)<br>
@@ -179,7 +176,7 @@ permalink: /
 [Romance Rocket](/romancerocket)<br>
 [Rope no Yuujou](/ropenoyuujou)<br>
 [Run Run Run](/runrunrun)
-# S
+## S
 [Saishuu Bell ga Naru](/saishuubellganaru)<br>
 [Sakura no Hanabiratachi](/sakuranohanabiratachi)<br>
 [Sakura no Shiori](/sakuranoshiori)<br>
@@ -203,7 +200,7 @@ permalink: /
 [Suki Suki Suki](/sukisukisuki)<br>
 [Suki! Suki! Skip!](/sukisukiskip)<br>
 [Switch](/switch)
-# T
+## T
 [Takane no Ringo](/takanenoringo)<br>
 [Takeuchi Senpai](/takeuchisenpai)<br>
 [Tanjoubi no Yoru](/tanjoubinoyoru)<br>
@@ -220,21 +217,21 @@ permalink: /
 [Tsukimisou](/tsukimisou)<br>
 [Tsundere!](/tsundere)<br>
 [Two Years Later](/twoyearslater)
-# U
+## U
 [Ue Kara Mariko](/uekaramariko)<br>
 [Utsukushii Inazuma](/utsukushiiinazuma)
-# V
+## V
 [Virgin Love](/virginlove)<br>
 [Viva! Hurricane](/vivahurricane)
-# W
+## W
 [Warning!](/warning)<br>
 [Wasshoi B!](/wasshoib)<br>
 [Wimbledon e Tsuretette](/wibledonetsuretette)<br>
 [Wink wa Sankai](/winkwasankai)
-# Y
+## Y
 [Yakusoku yo](/yakusokuyo)<br>
 [Yokaze no Shiwaza](/yokazenoshiwaza)<br>
 [Yuuhi wo Miteiruka](/yuuhiwomiteiruka)<br>
 [Yuuki no Hammer](/yuukinohammer)
-# Z
+## Z
 [Zetsumetsu Kurokami Shoujo](/zetsumetsukurokamishoujo)

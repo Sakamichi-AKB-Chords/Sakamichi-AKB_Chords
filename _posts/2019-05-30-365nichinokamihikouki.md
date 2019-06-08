@@ -1,6 +1,6 @@
 ---
 layout: AKB48
-title 365nichi no Kamihikouki
+title: 365nichi no Kamihikouki
 ---
 ## Intro 
 G D Em C D G 
