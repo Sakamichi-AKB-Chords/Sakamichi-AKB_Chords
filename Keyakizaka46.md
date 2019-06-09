@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: page
+title: Keyakizaka46
 permalink: /Keyakizaka46
 ---
 # Keyakizaka46
