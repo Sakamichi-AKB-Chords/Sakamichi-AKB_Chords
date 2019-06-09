@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: page
+title: Hinatazaka46
 permalink: /Hinatazaka46
 ---
 # Hinatazaka46
