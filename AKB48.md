@@ -3,7 +3,6 @@ layout: page
 title: AKB48
 permalink: /AKB48
 ---
-# AKB48
 ## 0-9
 [1! 2! 3! 4! Yoroshiku!](/1234yoroshiku)<br>
 [100m Conbini](/100mconbini)<br>
