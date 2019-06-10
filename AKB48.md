@@ -1,6 +1,6 @@
 ---
-title: AKB48
 layout: page
+title: AKB48
 permalink: /AKB48
 ---
 # AKB48
